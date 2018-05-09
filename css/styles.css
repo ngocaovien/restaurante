@@ -25,22 +25,23 @@ p{
   color:#fff;
   text-shadow: 1px 1px 2px #0a0a0a;
 }
+/* CAROUSEL STYLES */
 .carousel-inner .item{
   height:60vh;
   background-size: cover;
   background-position: center;
 }
 .carousel-wrapper{
-  height:90vh;
+  height:600px;
 }
 .carousel-caption{
-padding-bottom:90px;
+padding-bottom:150px;
 }
 .first-slide{
   background-image: url("../img/wood-2.jpg");
 }
 .slide-logo{
-  max-height:190px;
+  max-height:200px;
 }
 .second-slide{
   background-image: url('../img/restaurant-2.jpg');
@@ -48,19 +49,20 @@ padding-bottom:90px;
 .third-slide{
   background-image: url('../img/farm-2.jpg');
 }
-
 .btn-primary{
   background-color:#F8512f;
   border-style: none;
 }
 /* OUR_STORY STYLES */
 #our_story{
-  height:600px;
+  height:500px;
   display: flex;
   align-items: center;
-  
+
 }
-#our_story h1{
+#our_story h1,
+#review h1,
+#menu h1{
   font-family: 'Lobster', cursive;
   color: #F8512f;
   font-size: 6em;
@@ -79,4 +81,70 @@ padding-bottom:90px;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 2em;
+}
+#review{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 500px;
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#review p{
+  color:white;
+  font-family:"Raleway", sans-serif;
+  font-size: 2em;
+  text-shadow: 1px 1px 5px #0a0a0a;
+}
+#review .container{
+  background-color: rgba(20, 20, 20, .6);
+  padding: 10px;
+  border-radius: 5px;
+}
+/* MENU */
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-size: cover;
+  min-height: 500px;
+}
+#menu h1{
+  color: #fff;
+}
+#menu a{
+  color: #F8512F;
+  font-family: "Raleway", sans-serif;
+  font-weight:700;
+  text-transform: uppercase;
+}
+
+#menu .tab-content .row{
+  margin:0;
+}
+#menu .tab-content .food{
+  background-color: #fff;
+  padding:10px;
+}
+#contact {
+  background-color: #F8512f;
+  min-height: 500px;
+  color:#fff;
+  padding-bottom: 50px;
+}
+#contact h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700px;
+  font-size: 4em;
+  margin-top: 50px;
+}
+#contact .form-group span{
+  color: #ff0d06;
+}
+#contact form{
+  border: 1px solid #fff;
+  background-color: #F8512f;
+  padding: 15px;
+}
+#contact p{
+  font-weight: 300;
 }
