@@ -41,7 +41,8 @@ padding-bottom:100px;
   background-image: url("../img/wood-2.jpg");
 }
 .slide-logo{
-  max-height:200px;
+  padding-top:50px;
+  max-height:150px;
 }
 .second-slide{
   background-image: url('../img/restaurant-2.jpg');
