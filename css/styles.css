@@ -35,14 +35,13 @@ p{
   height:600px;
 }
 .carousel-caption{
-padding-bottom:100px;
+padding-bottom:125px;
 }
 .first-slide{
   background-image: url("../img/wood-2.jpg");
 }
 .slide-logo{
-  padding-top:50px;
-  max-height:150px;
+  max-height:1750px;
 }
 .second-slide{
   background-image: url('../img/restaurant-2.jpg');
